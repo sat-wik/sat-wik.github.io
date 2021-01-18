@@ -286,7 +286,7 @@ nav #menu li a:hover {
 }
 
 /*------------ Projects Section ---------------*/
-.project1,.project2,.project3 {
+.project1,.project2,.project3,.project4 {
     height: 400px;
     position: relative;
     overflow: hidden;
@@ -304,6 +304,11 @@ nav #menu li a:hover {
 
 .project3 {
     background-image: url(../img/tic-tac-toe.png);
+    background-size: cover;
+}
+
+.project4 {
+    background-image: url(../img/smart-mirror.png);
     background-size: cover;
 }
 
@@ -341,7 +346,7 @@ nav #menu li a:hover {
         margin-top: 100px;
         margin-bottom: 50px;
     }
-    .project1,.project2,.project3 {
+    .project1,.project2,.project3,.project4 {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
