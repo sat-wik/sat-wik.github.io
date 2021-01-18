@@ -286,7 +286,7 @@ nav #menu li a:hover {
 }
 
 /*------------ Projects Section ---------------*/
-.project1,.project2,.project3,.project4 {
+.project1,.project2,.project3,.project4,.project5,.project6 {
     height: 400px;
     position: relative;
     overflow: hidden;
@@ -309,6 +309,16 @@ nav #menu li a:hover {
 
 .project4 {
     background-image: url(../img/smart-mirror.png);
+    background-size: cover;
+}
+
+.project5 {
+    background-image: url(../img/story.gif);
+    background-size: cover;
+}
+
+.project6 {
+    background-image: url(../img/flu-tweets.png);
     background-size: cover;
 }
 
@@ -346,7 +356,7 @@ nav #menu li a:hover {
         margin-top: 100px;
         margin-bottom: 50px;
     }
-    .project1,.project2,.project3,.project4 {
+    .project1,.project2,.project3,.project4,.project5,.project6 {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
